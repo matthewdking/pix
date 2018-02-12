@@ -24,7 +24,7 @@ export const fetchPicturesReducer = (state = initialState, action) => {
     case FETCH_PICTURES_FULFILLED:
       return {
         ...state,
-        pictures: action.payload,
+        pictures: action.payload.data.hits.slice(0, 5),
         fetched: true,
         isFetching: false,
         error: false,

@@ -30,7 +30,7 @@ export const randomSearch = searchQueries => {
   return searchQueries[Math.floor(Math.random() * searchQueries.length)];
 };
 
-class ColorPicker extends Component {
+export class ColorPicker extends Component {
   constructor(props) {
     super(props);
 

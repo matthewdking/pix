@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Gallery snapshot error 1`] = `
+<section
+  className="sc-bdVaJa iZoBPa"
+>
+  <div>
+    Sorry the API appears to be down
+  </div>
+</section>
+`;
+
+exports[`Gallery snapshot fetched 1`] = `
+<section
+  className="sc-bdVaJa iZoBPa"
+>
+  <div>
+    Select a color to find some pictures
+  </div>
+</section>
+`;
+
+exports[`Gallery snapshot fetching 1`] = `
+<section
+  className="sc-bdVaJa iZoBPa"
+>
+  <div>
+    Loading...
+  </div>
+</section>
+`;
+
+exports[`Gallery snapshot initial 1`] = `
+<section
+  className="sc-bdVaJa iZoBPa"
+>
+  <div>
+    Select a color to find some pictures
+  </div>
+</section>
+`;

@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ColorPicker snapshot 1`] = `
+<section
+  className="sc-bdVaJa imDAUP"
+>
+  <div
+    className="sc-bwzfXH bVOPkM"
+    onClick={[Function]}
+  >
+    <div
+      className="sc-htpNat MxFAq"
+      color="#F44336"
+    >
+      Red
+    </div>
+  </div>
+  <div
+    className="sc-bwzfXH bVOPkM"
+    onClick={[Function]}
+  >
+    <div
+      className="sc-htpNat jOaskf"
+      color="#FFEB3B"
+    >
+      Yellow
+    </div>
+  </div>
+  <div
+    className="sc-bwzfXH bVOPkM"
+    onClick={[Function]}
+  >
+    <div
+      className="sc-htpNat jpwNYZ"
+      color="#4CAF50"
+    >
+      Green
+    </div>
+  </div>
+  <div
+    className="sc-bwzfXH bVOPkM"
+    onClick={[Function]}
+  >
+    <div
+      className="sc-htpNat cOTfMF"
+      color="#9C27B0"
+    >
+      Purple
+    </div>
+  </div>
+</section>
+`;

@@ -38,7 +38,7 @@ Clone the repositories
 git clone
 ```
 
-Install packages
+Install packages :arrow_down:
 
 ```
 npm install
@@ -50,8 +50,14 @@ You will have to create your own API key [here](). This can then be added to a `
 REACT_APP_PIXABAY_KEY=/*your key goes here*/
 ```
 
-Run the app
+Run the app :rocket:
 
 ```
 npm start
+```
+
+Run tests :white_check_mark:
+
+```
+npm test
 ```

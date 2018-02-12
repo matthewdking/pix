@@ -31,7 +31,7 @@ const Image = styled.img`
 
 const ImageLink = styled.a``;
 
-class Gallery extends Component {
+export class Gallery extends Component {
   showGallery = () => {
     if (this.props.pictures.fetched) {
       return (
@@ -60,6 +60,8 @@ class Gallery extends Component {
       );
     } else if (this.props.pictures.isFetching) {
       return <div>Loading...</div>;
+    } else if (this.props.pictures.error) {
+      return <div>Sorry the API appears to be down</div>;
     }
     return <div>Select a color to find some pictures</div>;
   };
