@@ -44,7 +44,7 @@ Install packages :arrow_down:
 npm install
 ```
 
-You will have to create your own API key [here](). This can then be added to a `config.env` file
+You will have to create your own API key [here](https://pixabay.com/api/docs/). This can then be added to a `.env` file in the root of the project.
 
 ```js
 REACT_APP_PIXABAY_KEY=/*your key goes here*/
